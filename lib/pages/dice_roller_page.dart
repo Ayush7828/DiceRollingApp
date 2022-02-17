@@ -77,7 +77,7 @@ class _DiceRollerPageState extends State<DiceRollerPage> {
                             spreadRadius: 2.0)
                       ],
                       borderRadius: BorderRadius.all(
-                        Radius.circular(4.0),
+                        Radius.circular(30.0),
                       ),
                     ),
                     child: const Center(

@@ -1,6 +1,7 @@
+import 'package:dice_rolling_app/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'dice_roller_page.dart';
+import 'pages/dice_roller_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: DiceRollerPage(),
+      home: SplashScreen(),
     );
   }
 }
